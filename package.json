@@ -1,0 +1,42 @@
+{
+  "name": "@amatechs/stylelint-config",
+  "version": "1.0.0",
+  "description": "Stylelint config from AMA Technologies",
+  "main": ".stylelintrc",
+  "scripts": {
+    "test": "stylelint \"test/*.css\""
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "lint",
+    "css",
+    "configuration",
+    "rule",
+    "stylelint"
+  ],
+  "homepage": "https://github.com/ama-techs/fe-stylelint-config.git",
+  "bugs": {
+    "url": "https://github.com/ama-techs/fe-stylelint-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com:ama-techs/fe-stylelint-config.git"
+  },
+  "license": "MIT",
+  "author": "Evgeniy Popov",
+  "dependencies": {
+    "stylelint": "~14.9.1",
+    "stylelint-config-concentric-order": "^5.0.0",
+    "stylelint-config-standard": "~26.0.0",
+    "stylelint-config-standard-scss": "~4.0.0",
+    "stylelint-scss": "~4.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "~14.9.1"
+  },
+  "engines": {
+	  "node": ">=14",
+	  "npm": ">=8"
+  }
+}
